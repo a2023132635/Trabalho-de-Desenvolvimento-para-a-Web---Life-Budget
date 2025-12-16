@@ -6,7 +6,8 @@ CREATE TABLE utilizadores (
     nome VARCHAR(100),
     apelido VARCHAR(100),
     email VARCHAR(150) UNIQUE,
-    password VARCHAR(255)
+    password VARCHAR(255),
+    avatar VARCHAR(255),
 );
 
 CREATE TABLE financas (
